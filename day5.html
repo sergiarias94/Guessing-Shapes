@@ -17,6 +17,9 @@
     <canvas id="canvas" width="350" height="350"></canvas>
     <canvas id="canvas_small" width="64" height="64"></canvas>
     <button onclick="run()">hit me!</button>
+    <p>Circle: <em id="circle_output">0</em>%</p>
+    <p>Star: <em id="star_output">0</em>%</p>
+    <p>Triangle: <em id="triangle_output">0</em>%</p>
 </body>
 
 <script>
@@ -50,6 +53,9 @@
         const outputMap = await session.run([tensorX]);
         const outputValues = outputMap.values().next().value.data;
         console.log(outputValues);
+        document.getElementById('circle_output').innerHTML = Math.round(outputValues[0]*10000/100)
+        document.getElementById('star_output').innerHTML = Math.round(outputValues[1]*10000/100)
+        document.getElementById('triangle_output').innerHTML = Math.round(outputValues[2]*10000/100)  
     }
 
 
