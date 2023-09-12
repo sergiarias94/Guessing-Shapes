@@ -55,17 +55,13 @@
         const outputMap = await session.run([tensorX]);
         const outputValues = outputMap.values().next().value.data;
         console.log(outputValues);
-        document.getElementById('circle_output').innerHTML = Math.round(outputValues[0]*10000/100)
-        document.getElementById('star_output').innerHTML = Math.round(outputValues[1]*10000/100)
-        document.getElementById('triangle_output').innerHTML = Math.round(outputValues[2]*10000/100)  
+        //document.getElementById('circle_output').innerHTML = Math.round(outputValues[0]*10000/100)
+        //document.getElementById('star_output').innerHTML = Math.round(outputValues[1]*10000/100)
+        //document.getElementById('triangle_output').innerHTML = Math.round(outputValues[2]*10000/100)
+        document.getElementById('circle_output').textContent = Math.round(outputValues[0] * 100) + "%";
+        document.getElementById('star_output').textContent = Math.round(outputValues[1] * 100) + "%";
+        document.getElementById('triangle_output').textContent = Math.round(outputValues[2] * 100) + "%";  
     }
-
-
-
-
-
-
-
 
     var last_x = 0;
     var last_y = 0;
