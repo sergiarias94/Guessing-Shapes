@@ -1,0 +1,364 @@
+pytorch1.12.1:���
+�
+input.1
+
+layer1.weight
+layer1.biasinputConv_0"Conv*
+	dilations@@�*
+group�*
+kernel_shape@@�*
+pads@@@@�*
+strides@@�2�c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\conv.py(452): _conv_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\conv.py(457): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\310221443.py(20): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(111): wrapper
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(104): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(1051): _export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(171): export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\__init__.py(354): export
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\4256060028.py(1): <module>
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3457): run_code
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3368): run_ast_nodes
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3194): run_cell_async
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2992): _run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2962): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\zmqshell.py(531): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\ipkernel.py(380): do_execute
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(700): execute_request
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(383): dispatch_shell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(496): process_one
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(510): dispatch_queue
+c:\Users\sergi\anaconda3\lib\asyncio\events.py(80): _run
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(1868): _run_once
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(597): run_forever
+c:\Users\sergi\anaconda3\lib\site-packages\tornado\platform\asyncio.py(195): start
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelapp.py(701): start
+c:\Users\sergi\anaconda3\lib\site-packages\traitlets\config\application.py(990): launch_instance
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel_launcher.py(12): <module>
+c:\Users\sergi\anaconda3\lib\runpy.py(75): _run_code
+c:\Users\sergi\anaconda3\lib\runpy.py(191): _run_module_as_main
+
+�
+inputinput.4Relu_1"Relu2�c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\functional.py(1453): relu
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\activation.py(98): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\310221443.py(20): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(111): wrapper
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(104): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(1051): _export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(171): export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\__init__.py(354): export
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\4256060028.py(1): <module>
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3457): run_code
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3368): run_ast_nodes
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3194): run_cell_async
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2992): _run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2962): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\zmqshell.py(531): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\ipkernel.py(380): do_execute
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(700): execute_request
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(383): dispatch_shell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(496): process_one
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(510): dispatch_queue
+c:\Users\sergi\anaconda3\lib\asyncio\events.py(80): _run
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(1868): _run_once
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(597): run_forever
+c:\Users\sergi\anaconda3\lib\site-packages\tornado\platform\asyncio.py(195): start
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelapp.py(701): start
+c:\Users\sergi\anaconda3\lib\site-packages\traitlets\config\application.py(990): launch_instance
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel_launcher.py(12): <module>
+c:\Users\sergi\anaconda3\lib\runpy.py(75): _run_code
+c:\Users\sergi\anaconda3\lib\runpy.py(191): _run_module_as_main
+
+�
+input.4
+
+layer2.weight
+layer2.biasinput.8Conv_2"Conv*
+	dilations@@�*
+group�*
+kernel_shape@@�*
+pads@@@@�*
+strides@@�2�c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\conv.py(452): _conv_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\conv.py(457): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\310221443.py(20): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(111): wrapper
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(104): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(1051): _export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(171): export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\__init__.py(354): export
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\4256060028.py(1): <module>
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3457): run_code
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3368): run_ast_nodes
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3194): run_cell_async
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2992): _run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2962): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\zmqshell.py(531): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\ipkernel.py(380): do_execute
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(700): execute_request
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(383): dispatch_shell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(496): process_one
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(510): dispatch_queue
+c:\Users\sergi\anaconda3\lib\asyncio\events.py(80): _run
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(1868): _run_once
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(597): run_forever
+c:\Users\sergi\anaconda3\lib\site-packages\tornado\platform\asyncio.py(195): start
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelapp.py(701): start
+c:\Users\sergi\anaconda3\lib\site-packages\traitlets\config\application.py(990): launch_instance
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel_launcher.py(12): <module>
+c:\Users\sergi\anaconda3\lib\runpy.py(75): _run_code
+c:\Users\sergi\anaconda3\lib\runpy.py(191): _run_module_as_main
+
+�
+input.8input.12Relu_3"Relu2�c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\functional.py(1453): relu
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\activation.py(98): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\310221443.py(20): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(111): wrapper
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(104): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(1051): _export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(171): export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\__init__.py(354): export
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\4256060028.py(1): <module>
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3457): run_code
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3368): run_ast_nodes
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3194): run_cell_async
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2992): _run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2962): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\zmqshell.py(531): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\ipkernel.py(380): do_execute
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(700): execute_request
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(383): dispatch_shell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(496): process_one
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(510): dispatch_queue
+c:\Users\sergi\anaconda3\lib\asyncio\events.py(80): _run
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(1868): _run_once
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(597): run_forever
+c:\Users\sergi\anaconda3\lib\site-packages\tornado\platform\asyncio.py(195): start
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelapp.py(701): start
+c:\Users\sergi\anaconda3\lib\site-packages\traitlets\config\application.py(990): launch_instance
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel_launcher.py(12): <module>
+c:\Users\sergi\anaconda3\lib\runpy.py(75): _run_code
+c:\Users\sergi\anaconda3\lib\runpy.py(191): _run_module_as_main
+
+�
+input.12
+
+layer3.weight
+layer3.biasinput.16Conv_4"Conv*
+	dilations@@�*
+group�*
+kernel_shape@@�*
+pads@@@@�*
+strides@@�2�c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\conv.py(452): _conv_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\conv.py(457): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\310221443.py(21): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(111): wrapper
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(104): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(1051): _export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(171): export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\__init__.py(354): export
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\4256060028.py(1): <module>
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3457): run_code
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3368): run_ast_nodes
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3194): run_cell_async
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2992): _run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2962): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\zmqshell.py(531): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\ipkernel.py(380): do_execute
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(700): execute_request
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(383): dispatch_shell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(496): process_one
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(510): dispatch_queue
+c:\Users\sergi\anaconda3\lib\asyncio\events.py(80): _run
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(1868): _run_once
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(597): run_forever
+c:\Users\sergi\anaconda3\lib\site-packages\tornado\platform\asyncio.py(195): start
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelapp.py(701): start
+c:\Users\sergi\anaconda3\lib\site-packages\traitlets\config\application.py(990): launch_instance
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel_launcher.py(12): <module>
+c:\Users\sergi\anaconda3\lib\runpy.py(75): _run_code
+c:\Users\sergi\anaconda3\lib\runpy.py(191): _run_module_as_main
+
+�
+input.16input.20Relu_5"Relu2�c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\functional.py(1453): relu
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\activation.py(98): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\310221443.py(21): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(111): wrapper
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(104): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(1051): _export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(171): export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\__init__.py(354): export
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\4256060028.py(1): <module>
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3457): run_code
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3368): run_ast_nodes
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3194): run_cell_async
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2992): _run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2962): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\zmqshell.py(531): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\ipkernel.py(380): do_execute
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(700): execute_request
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(383): dispatch_shell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(496): process_one
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(510): dispatch_queue
+c:\Users\sergi\anaconda3\lib\asyncio\events.py(80): _run
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(1868): _run_once
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(597): run_forever
+c:\Users\sergi\anaconda3\lib\site-packages\tornado\platform\asyncio.py(195): start
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelapp.py(701): start
+c:\Users\sergi\anaconda3\lib\site-packages\traitlets\config\application.py(990): launch_instance
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel_launcher.py(12): <module>
+c:\Users\sergi\anaconda3\lib\runpy.py(75): _run_code
+c:\Users\sergi\anaconda3\lib\runpy.py(191): _run_module_as_main
+
+�
+input.20
+
+layer4.weight
+layer4.biasinput.24Conv_6"Conv*
+	dilations@@�*
+group�*
+kernel_shape@@�*
+pads@@@@�*
+strides@@�2�c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\conv.py(452): _conv_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\conv.py(457): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\310221443.py(21): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(111): wrapper
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(104): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(1051): _export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(171): export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\__init__.py(354): export
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\4256060028.py(1): <module>
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3457): run_code
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3368): run_ast_nodes
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3194): run_cell_async
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2992): _run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2962): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\zmqshell.py(531): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\ipkernel.py(380): do_execute
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(700): execute_request
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(383): dispatch_shell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(496): process_one
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(510): dispatch_queue
+c:\Users\sergi\anaconda3\lib\asyncio\events.py(80): _run
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(1868): _run_once
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(597): run_forever
+c:\Users\sergi\anaconda3\lib\site-packages\tornado\platform\asyncio.py(195): start
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelapp.py(701): start
+c:\Users\sergi\anaconda3\lib\site-packages\traitlets\config\application.py(990): launch_instance
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel_launcher.py(12): <module>
+c:\Users\sergi\anaconda3\lib\runpy.py(75): _run_code
+c:\Users\sergi\anaconda3\lib\runpy.py(191): _run_module_as_main
+
+�
+input.24onnx::Reshape_18Relu_7"Relu2�c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\functional.py(1453): relu
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\activation.py(98): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\310221443.py(21): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(111): wrapper
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(104): forward
+c:\Users\sergi\anaconda3\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+c:\Users\sergi\anaconda3\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(1051): _export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\utils.py(171): export
+c:\Users\sergi\anaconda3\lib\site-packages\torch\onnx\__init__.py(354): export
+C:\Users\sergi\AppData\Local\Temp\ipykernel_13084\4256060028.py(1): <module>
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3457): run_code
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3368): run_ast_nodes
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(3194): run_cell_async
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2992): _run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\IPython\core\interactiveshell.py(2962): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\zmqshell.py(531): run_cell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\ipkernel.py(380): do_execute
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(700): execute_request
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(383): dispatch_shell
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(496): process_one
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelbase.py(510): dispatch_queue
+c:\Users\sergi\anaconda3\lib\asyncio\events.py(80): _run
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(1868): _run_once
+c:\Users\sergi\anaconda3\lib\asyncio\base_events.py(597): run_forever
+c:\Users\sergi\anaconda3\lib\site-packages\tornado\platform\asyncio.py(195): start
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel\kernelapp.py(701): start
+c:\Users\sergi\anaconda3\lib\site-packages\traitlets\config\application.py(990): launch_instance
+c:\Users\sergi\anaconda3\lib\site-packages\ipykernel_launcher.py(12): <module>
+c:\Users\sergi\anaconda3\lib\runpy.py(75): _run_code
+c:\Users\sergi\anaconda3\lib\runpy.py(191): _run_module_as_main
+
+�onnx::Reshape_19
+Constant_8"Constant*"
+value*J��������
